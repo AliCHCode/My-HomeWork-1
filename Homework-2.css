@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0px;
+}
+
+#menu{
+    height: 80px;
+    background-color:lightgray;
+    opacity: 0.9;
+    padding: 0 20px;
+    
+}
+
+#logo{
+    font-size: 30px;
+    color: #003666;
+    float: left;
+    line-height: 80px;
+
+}
+nav{
+    float: right;
+    line-height: 80px;
+    
+
+}
+nav a:link{
+    text-decoration:none;
+    margin-right: 25px;
+    color: #003666;
+
+}
+nav a:hover{
+    border-bottom: 2px solid;
+}
+nav a:visited{
+    text-decoration:none;
+    margin-right: 25px;
+    color: #003666;
+}
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+#anasayfa{
+    height: 600px;
+    background-image: url("r2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#icerik{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+}
+
+.başlık{
+    height: 80px;
+    text-align: center;    
+    color: #003666;
+    background-color: lightgrey;
+    line-height: 80px;
+    font-size:32px;
+    margin-bottom: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    opacity: 0.7;
+}
+.ikon2{
+    font-size: 27px;
+    margin-right: 10px;
+}
+
+.hg{
+    border-bottom: 3px solid;
+    border-radius: 3px;
+}
+
+#form{
+    text-align: center
+    
+}
+#formpage{
+    background-image: url("f2.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
